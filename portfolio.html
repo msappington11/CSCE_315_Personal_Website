@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="styles/portfolio1.css">
+    </head>
+
+    <body>
+        <h1>Mitchell Sappington</h1>
+        <ul id="menu">
+            <li><a class="nav" href="index.html">Home</a></li>
+            <li><a class="nav" href="portfolio.html">Portfolio</a></li>
+            <li><a class="nav" href="qualifications.html">Qualifications</a></li>
+            <li><a class="nav" href="service.html">Service</a></li>
+        </ul>
+
+        <div id="container">
+            <h2>Portfolio</h2>
+            <hr>
+            <div class="text">
+                <div class="sub">
+                    <span class="sub-title">TAMU Album of the Week Website</span> <br>
+                    <a href="https://www.tamuaotw.com/">Website Link</a>
+                    <li>Skills: React, Node.js, PostgreSQL, Full Stack Development, Interaction with Spotify and Google API's</li>
+                    <li>Created a website for my organization. It features a React front end, Express back end, and a connection to a PostgreSQL database that stores user and club information. </li>
+                    <li>Requests from the Spotify and Google Identity API's to validate album nominations and keep track of users in the database.</li>
+                    <li>Automates club tasks such as creating forms for album nominations, votes, and ratings through the use of Cron tasks that update the database at specified time intervals.</li>
+                    <li>Currently testing the automated album selection process before making it public. </li>
+                </div>
+
+                <div class="sub">
+                    <span class="sub-title">Professor Bot</span> <br>
+                    <a href="https://github.com/msappington11/Professor-Bot-Public">Github Link</a>
+                    <li>Skills: Node.js, Web Scraping, Puppeteer, Discord API</li>
+                    <li>Uses the request, cheerio, and puppeteer libraries in Node.js to web scrape professor GPA information. Uses the Discord API to allow users to call functions through Discord and receive messages back, providing an accessible and intuitive interface. </li>
+                    <li>Provides the user information about each professors GPA and how they compare to the course average, allowing them to effectively weigh their options when creating their schedule. The ratemyprofessor link is also included to allow students to make informed decisions about their professors.</li>
+                    <li>Has been called by A&M students 2,500+ times, demonstrating reliability.</li>
+                </div>
+
+                <div class="sub">
+                    <span class="sub-title">Sudoku Solver</span> <br>
+                    <a href="https://github.com/msappington11/sudoku-solver">Github Link</a>
+                    <li>Skills: Python, Recursion, Image Processing, Neural Networks, Tkinter, OpenCV, TensorFlow</li>
+                    <li>Built on a Tkinter GUI that gives the user an intuitive interface to interact with.</li>
+                    <li>Allows the user to enter the sudoku puzzle manually, or scan one in through the camera.</li>
+                    <li>Employs image processing techniques such as shadow removal and edge detection to isolate the individual sudoku squares. This is done through the OpenCV library.</li>
+                    <li>Created a convolutional neural network model using TensorFlow that identifies the digit in each square</li>
+                    <li>Wrote a backpropagation algorithm that solves the sudoku puzzle, if possible</li>
+                </div>
+
+                <div class="sub">
+                    <span class="sub-title">Self Driving Virtual Car</span> <br>
+                    <a href="https://github.com/msappington11/self-driving-car">Github Link</a>
+                    <li>Skills: Python, TensorFlow, Image Processing, Data Collection, PyAutoGUI, OpenCV</li>
+                    <li>Created data collection script that uses PyAutoGUI and OpenCV to monitor how the user interacts with the environment. This is done by collecting a screenshot and keypress at each time quantum, processing the image, and saving it along with the keystroke the user entered.</li>
+                    <li>Trained a convolutional neural network with the training images and keystrokes as an experiment to see if it could accurately mimic the users movements and avoid crashing.</li>
+                    <li>Successfully created an effective model that was able to complete a full lap of a GTA V race without the use of time consuming reinforcement learning.</li>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
