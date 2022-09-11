@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>About Me</title>
-        <link rel="stylesheet" type="text/css" href="styles/homepage1.css">
+        <link id="style" rel="stylesheet" type="text/css" href="styles/homepage1.css">
     </head>
 
     <body>
@@ -12,6 +12,7 @@
             <li><a class="nav" href="portfolio.html">Portfolio</a></li>
             <li><a class="nav" href="qualifications.html">Qualifications</a></li>
             <li><a class="nav" href="service.html">Service</a></li>
+            <li><a class="nav" onclick="changeTheme()">Change Style</a></li>
         </ul>
 
         <div id="container">
@@ -27,8 +28,9 @@
             </div>
 
             <div id="image-holder">
-                <img src="pic.jpg" width="300">
+                <img src="assets/pic.jpg" width="300">
             </div>
         </div>
+        <script src="javascript.js"></script>
     </body>
 </html>
