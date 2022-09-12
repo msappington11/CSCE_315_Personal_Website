@@ -41,7 +41,7 @@ h1 {
     font-family: "RobotoRegular";
     font-size: large;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style-type: none;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -53,9 +53,8 @@ h1 {
     padding-top: 5px;
     padding-bottom: 5px;
     width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
-
+    padding-left: auto;
+    padding-right: auto;
 }
 
 #menu a:hover {
